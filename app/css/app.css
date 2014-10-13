@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+div.spinner{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+div.spinner div.background{
+    height: 100%;
+    width: 100%;
+    background: white;
+    opacity: 0.5;
+}
+
+
+/* graph */
+line.correlation {
+    stroke-width: 1.5px;
+    opacity: 0.3;
+}
+
+line.correlation.correlation-positive {
+    stroke: white;
+}
+
+line.correlation.correlation-negative {
+    stroke: #EE8833;
+}
+
+line.correlation.hide {
+    display:none;
+}
+
+line.highlight{
+    stroke-width:4px;
+    opacity:0.8;
+}
+
+g.node.highlight circle{
+    stroke-width:2px;
+    stroke: white;
+}
+
+g.node text {
+    display: none;
+    fill: white;
+}
+g.node.seed text {
+    fill: red;
+}
+
+g.node.seed text, g.node.highlight text {
+    display: inline;
+}
+
+g.node circle {
+    stroke: black;
+    stroke-width: 1.5px;
+}
