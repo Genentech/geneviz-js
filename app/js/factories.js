@@ -4,7 +4,7 @@ angular.module('geneviz.factories', [])
             var _this = this;
 
             options = _.extend({
-                initSeed: 'ERBB3',
+                initSeed: 'ERBB2',
                 datasetName: 'LumA',
                 scoreThreshold: 0.5,
                 possibleDataset: [

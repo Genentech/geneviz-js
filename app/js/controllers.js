@@ -9,7 +9,7 @@ angular.module('geneviz.controllers', [])
         $scope.GraphService = GraphService;
 
         $scope.graphParams.setDataset($routeParams.dataset || 'LumB');
-        $scope.graphParams.initSeed = $routeParams.seedSymbol || 'ERBB3';
+        $scope.graphParams.initSeed = $routeParams.seedSymbol || 'ERBB2';
 
         var locationRoot = $location.path().split('/')[1];
         var updateLocation = function () {
